@@ -1,0 +1,121 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $hero-bg-color;
+}
+
+.footer__flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__contacts {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  color: $primary-white-color;
+  transition: color 250ms $cubic;
+}
+
+.address {
+  margin-top: 20px;
+
+  font-style: inherit;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  color: $primary-white-color;
+  line-height: 1.71;
+
+  transition: color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.mail,
+.tel {
+  color: var(--footer-text-color);
+}
+
+// invitation
+
+.invitation {
+  margin-right: 93px;
+}
+
+.invitation__text,
+.subscribe__text {
+  display: block;
+  margin-bottom: 20px;
+
+  color: $primary-white-color;
+  text-transform: uppercase;
+}
+
+.invitation__list {
+  display: flex;
+}
+
+.invitation__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.invitation__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.invitation__icon {
+  fill: $primary-white-color;
+}
+
+// subscribe
+
+.subscribe__input {
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  outline: 0;
+
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  color: rgba(255, 255, 255, 0.6);
+  background: $hero-bg-color;
+}
+
+.subscribe__btn {
+  display: inline-flex;
+  text-align: center;
+}
+
+.subcribe__icon {
+  margin-left: 10px;
+}

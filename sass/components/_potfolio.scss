@@ -37,13 +37,13 @@
 
 // Примеры работ
 
-.portfolio__list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.portfolio__item {
+.portfolio-list__item {
   width: calc((100% - 60px) / 3);
   transition: box-shadow 250ms $cubic;
 
@@ -60,19 +60,19 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 
-  &:hover .portfolio__text {
+  &:hover .portfolio-list__text {
     transform: translateY(0);
   }
 }
 
-.portfolio__card {
+.portfolio-list__card {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.portfolio__name {
+.portfolio-list__name {
   margin-bottom: 4px;
 
   font-size: 18px;
@@ -80,7 +80,7 @@
   letter-spacing: 0.06;
 }
 
-.portfolio__type {
+.portfolio-list__type {
   color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.87;
@@ -88,12 +88,12 @@
 
 // Технокряк
 
-.portfolio__works {
+.portfolio-list__works {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio__text {
+.portfolio-list__text {
   position: absolute;
   top: 0;
   left: 0;

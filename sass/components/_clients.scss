@@ -2,16 +2,16 @@
   @extend %sections__title;
 }
 
-.clients__list {
+.clients-list {
   display: flex;
   justify-content: center;
 }
 
-.clients__item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients__link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,6 +31,6 @@
   }
 }
 
-.clients__icon {
+.clients-list__icon {
   fill: currentColor;
 }

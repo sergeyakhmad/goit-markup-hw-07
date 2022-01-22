@@ -2,11 +2,11 @@
   padding-bottom: 47px;
 }
 
-.feature__list {
+.feature-list {
   display: flex;
 }
 
-.feature__item {
+.feature-list__item {
   width: calc((100%-90px) / 4);
 
   &:not(:last-child) {
@@ -14,7 +14,7 @@
   }
 }
 
-.feature__picture {
+.feature-list__picture {
   display: flex;
   min-height: 120px;
   justify-content: center;
@@ -26,14 +26,14 @@
   border-radius: 4px;
 }
 
-.feature__subtitle {
+.feature-list__subtitle {
   margin-bottom: 10px;
 
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.feature__text {
+.feature-list__text {
   color: $secondary-text-color;
   line-height: 1.71;
 }

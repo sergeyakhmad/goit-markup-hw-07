@@ -6,11 +6,11 @@
   @extend %sections__title;
 }
 
-.service__list {
+.service-list {
   display: flex;
 }
 
-.service__item {
+.service-list__item {
   position: relative;
 
   &:not(:last-child) {
@@ -18,7 +18,7 @@
   }
 }
 
-.service__text {
+.service-list__text {
   position: absolute;
   left: 0;
   bottom: 0;

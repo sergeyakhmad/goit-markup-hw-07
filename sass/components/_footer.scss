@@ -43,7 +43,7 @@
 
 .mail,
 .tel {
-  color: var(--footer-text-color);
+  color: $footer-text-color;
 }
 
 // invitation
@@ -61,24 +61,9 @@
   text-transform: uppercase;
 }
 
-.invitation__list {
-  display: flex;
-}
-
-.invitation__item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.invitation__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.invitation .social__link {
+  color: $primary-white-color;
   background-color: rgba(255, 255, 255, 0.1);
-
-  transition: background-color 250ms $cubic;
 
   &:hover,
   &:focus {
@@ -86,9 +71,38 @@
   }
 }
 
-.invitation__icon {
-  fill: $primary-white-color;
-}
+// .invitation .social__icon {
+//   fill: currentColor;
+// }
+
+// .invitation__list {
+//   display: flex;
+// }
+
+// .invitation__item:not(:last-child) {
+//   margin-right: 10px;
+// }
+
+// .invitation__link {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 44px;
+//   height: 44px;
+//   border-radius: 50%;
+//   background-color: rgba(255, 255, 255, 0.1);
+
+//   transition: background-color 250ms $cubic;
+
+//   &:hover,
+//   &:focus {
+//     background-color: $accent-color;
+//   }
+// }
+
+// .invitation__icon {
+//   fill: $primary-white-color;
+// }
 
 // subscribe
 

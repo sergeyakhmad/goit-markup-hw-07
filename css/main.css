@@ -230,6 +230,10 @@ body {
           align-items: center;
 }
 
+.header-nav {
+  margin-left: 93px;
+}
+
 .header-nav__item {
   position: relative;
 }
@@ -242,7 +246,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 93px;
 }
 
 .header-nav__link {
@@ -424,6 +427,8 @@ body {
   width: 100%;
   padding-top: 27px;
   padding-bottom: 27px;
+  font-size: 14px;
+  line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
